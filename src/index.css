@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.root,
+#root,
+#docs-root {
+  --primary-color: #F1F1F1;
+  --secondary-color: #18181B;
+}
+
+*{
+  @apply transition-colors duration-200
+}
